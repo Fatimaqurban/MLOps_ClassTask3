@@ -23,5 +23,5 @@ services:
       - ./backend:/app
       - /app/node_modules
     environment:
-      - MONGODB_URI=mongodb+srv://i211195:Fast2021@cluster0.kixwl8x.mongodb.net/Mlops_classtask3?retryWrites=true&w=majority
+      - MONGODB_URI=<paste MongoURI>
       - PORT=4000
